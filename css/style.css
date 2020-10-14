@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+     
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    background-color:#ffffff;
+    position: fixed;
+    width: 80%;
+    top: 0px;
+    padding: 12px;
+    padding-top: 30px;
+
+}
+
+header h1{
+    color: #000000 ;
+    font-weight: bolder;
+    padding-left: 55px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+
+header h3{
+    color: #8A8578 ;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif; 
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    letter-spacing: 0px;
+    float: left;
+
+}
+
+#logo{
+    float: left;
+    padding:0px;
+    margin: 0px;
+
+}
+
+
+header nav{
+    float: right;
+    color: #f0ae71 ;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f0ae71 ;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.line{
+    clear: both;
+    line-height: 0.25;
+    background-image: url(../img/hr-img.png);
+    background-repeat: repeat-x;
+    color: #ffffff;
+}
+
+main{
+    padding-top: 200px;
+}
+
+main section h1{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+main section h5{
+    color: #8A8578 ;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    padding-top: 2px;
+    float: left;
+    padding-left: 10px;
+
+
+}
+
+#print{
+    text-align: right;
+    padding-right: 20px;
+    color: #8A8578 ;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: blod;
+}
+
+#pizzaImg{
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 12px;
+}
+
+#pizzaText{
+    padding-top: 20px;
+    text-align: justify;
+    width: 1200px;
+    padding-left: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #8A8578;
+    text-indent: 50px;
+    line-height: 2em;
+    font-size: medium;
+
+
+}
+#paper{
+    background-image: url(../img/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 1200px;
+  
+}
+
+#checkLeft{
+    float: left;
+    list-style-image: url(../img/unchecked.png);
+    margin-left: 15%;
+    font-family: cursive;
+    color: #988d7f;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 19px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+#checkRight{
+    float: right;
+    list-style-image: url(../img/unchecked.png);
+    margin-right: 20%;
+    font-family: cursive;
+    color: #988d7f;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.crossed{
+    list-style-image: url(../img/checked.png);
+    text-decoration: line-through;
+
+}
+
+#profile{
+    padding-top: 15px;
+}
+
+#profile img{
+    float: left;
+}
+
+#profile h3{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 20px;    
+    padding-left: 70px;
+    line-height: 2em;
+}
+
+#profile h5{
+    color: #8A8578;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-transform: none;
+    font-size: 20px;
+    width: 50%;
+}
+
+button {
+    margin-left: 330px;
+    border: none;
+    background: #bc7058;
+    color: #FFF;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: 25px;
+
+}
+  button:hover {
+    background-color:  #0f0f0f;
+    color: #ffffff;
+    transition-delay: 350ms;
+  }
+
+  footer{
+      margin-top: 60px;
+      text-align: center;
+      position: relative;
+  }
+
+
+  footer img{
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+  }
+
+  footer p{
+      color: #8A8578;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 20px;
+
+  }
+     
+
+ 
+       
